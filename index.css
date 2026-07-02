@@ -20,7 +20,7 @@ body {
     flex-direction: column;
 }
 
-h1 {
+h1 ,.second-section h3{
     font-size: 100px;
     font-weight: 700;
     color: #B51414;
@@ -110,11 +110,15 @@ iframe {
 }
 
 
+.second-section{
+    color: white;
+}
 
 
 
-
-
+ul{
+    font-size: 35px;
+}
 
 
 
