@@ -15,12 +15,18 @@ body {
 }
 
 .main-div {
-    height: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
 }
 
-h1 ,.second-section h3{
+audio {
+    margin: 20px 0px;
+}
+
+h1,
+.second-section h3,
+h3 {
     font-size: 100px;
     font-weight: 700;
     color: #B51414;
@@ -73,6 +79,15 @@ a {
 
 }
 
+.watch {
+    all: unset;
+    background-color: white;
+    color: black;
+    padding: 2px 28px;
+    cursor: pointer;
+
+}
+
 h4 {
     font-size: 50px;
     letter-spacing: 5px;
@@ -88,7 +103,7 @@ h4 {
 .season-div-one {
     display: flex;
     gap: 80px;
-    
+
 }
 
 iframe {
@@ -110,13 +125,13 @@ iframe {
 }
 
 
-.second-section{
+.second-section {
     color: white;
 }
 
 
 
-ul{
+ul {
     font-size: 35px;
 }
 
