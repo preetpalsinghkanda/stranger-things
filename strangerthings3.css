@@ -1,0 +1,37 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+     font-family: "Bebas Neue", sans-serif;
+}
+
+.main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height:auto;
+    width: 98vw;
+}
+
+h2{
+    
+    font-size: 100px;
+}
+
+p{
+    font-size: 30px;
+}
+
+button{
+    margin: 20px 0px;
+     font-family: "Bebas Neue", sans-serif;
+     font-size: 20px;
+     border: none;
+     background-color: white;
+}

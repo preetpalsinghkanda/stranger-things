@@ -78,16 +78,17 @@ h4 {
     letter-spacing: 5px;
 }
 
-.season-one {
+.season {
     gap: 80px;
 
 
     margin: 40px 0px;
 }
 
-.season-one-div-one {
+.season-div-one {
     display: flex;
     gap: 80px;
+    
 }
 
 iframe {
@@ -101,7 +102,7 @@ iframe {
     gap: 100px;
 }
 
-.season-one img {
+.season img {
 
 
     height: 550px;
