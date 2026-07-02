@@ -5,6 +5,7 @@
 }
 
 body {
+    margin: 10px;
     height: 100vh;
     /* border: 1px solid rgb(255, 255, 255); */
     font-family: "Bebas Neue", sans-serif;
@@ -45,7 +46,8 @@ footer {
     background-color: rgb(126, 32, 32);
 }
 
-footer button {
+footer a {
+    all: unset;
     cursor: pointer;
     font-size: 24px;
     font-weight: 600;
@@ -54,9 +56,68 @@ footer button {
     letter-spacing: 6px;
     width: fit-content;
     border: none;
+    color: black;
+
 }
 
-footer button:hover{
+a {
+    all: unset;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 8px 24px;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
+    width: fit-content;
+    border: none;
+
+}
+
+h4 {
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+.season-one {
+    gap: 80px;
+
+
+    margin: 40px 0px;
+}
+
+.season-one-div-one {
+    display: flex;
+    gap: 80px;
+}
+
+iframe {
+    margin-top: 20px;
+}
+
+.iframe-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.season-one img {
+
+
+    height: 550px;
+
+}
+
+
+
+
+
+
+
+
+
+
+a:hover {
     color: white;
     background-color: black;
 }
